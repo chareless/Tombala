@@ -17,7 +17,7 @@ namespace Tombala
         {
             InitializeComponent();
             DoThings dothings = new DoThings();
-            surumLabel.Text = "Tombala v" + dothings.surum;
+            surumLabel.Text = "E-Tombala v" + dothings.surum;
         }
     }
 }
