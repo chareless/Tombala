@@ -19,8 +19,8 @@ namespace Tombala
             InternetKontrol();
             
         }
-        DoThings dothings = new DoThings();
 
+        DoThings dothings = new DoThings();
         private void InternetKontrol()
         {
             try
@@ -178,12 +178,12 @@ namespace Tombala
                 }
                 
             }
+
             dothings.sayiEsle();
             dothings.cinkoKontrol();
             listeYenile();
             duyuru();
             kartıKontrolEt();
-            
 
             for (int i = 0; i < dothings.maxOyuncu; i++)
             {
@@ -206,8 +206,6 @@ namespace Tombala
                 kartDegisButton.Visible = true;
                 yeniTurButton.Visible = true;
             }
-           
-            
         }
 
         private void duyuru()

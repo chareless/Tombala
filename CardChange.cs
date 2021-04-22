@@ -16,30 +16,11 @@ namespace Tombala
         public CardChange()
         {
             InitializeComponent();
-            kartNoComboBox.Text = "1";
-            kartNoComboBox.Items.Clear();
-            for (int i = 0; i < dothings.KartNo.Count; i++)
-            {
-                kartNoComboBox.Items.Add(dothings.KartNo[i]);
-                if (i == 0)
-                {
-                    kartNoComboBox.Text = dothings.KartNo[i].ToString();
-                }
-            }
-            isimComboBox.Text = dothings.oyuncu[0].isim;
-            for(int i=0;i<dothings.maxOyuncu;i++)
-            {
-                isimComboBox.Items.Add(dothings.oyuncu[i].isim);
-                if(i==0)
-                {
-                    isimComboBox.Text = dothings.oyuncu[i].isim;
-                }
-            }
+            mevcutKartlar();
         }
+
         DoThings dothings = new DoThings();
-
         public static int gecici;
-
         private void degistirButton_Click(object sender, EventArgs e)
         {
             for(int i=0;i<dothings.maxOyuncu;i++)
@@ -51,6 +32,29 @@ namespace Tombala
                     MessageBox.Show(isimComboBox.Text + " adlı oyuncunun kart numarası " + kartNoComboBox.Text + " olarak değiştirildi");
                     kartTara();
                     this.Close();
+                }
+            }
+        }
+
+        private void mevcutKartlar()
+        {
+            kartNoComboBox.Text = "1";
+            kartNoComboBox.Items.Clear();
+            for (int i = 0; i < dothings.KartNo.Count; i++)
+            {
+                kartNoComboBox.Items.Add(dothings.KartNo[i]);
+                if (i == 0)
+                {
+                    kartNoComboBox.Text = dothings.KartNo[i].ToString();
+                }
+            }
+            isimComboBox.Text = dothings.oyuncu[0].isim;
+            for (int i = 0; i < dothings.maxOyuncu; i++)
+            {
+                isimComboBox.Items.Add(dothings.oyuncu[i].isim);
+                if (i == 0)
+                {
+                    isimComboBox.Text = dothings.oyuncu[i].isim;
                 }
             }
         }
