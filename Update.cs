@@ -27,7 +27,7 @@ namespace Tombala
 
         private void programGuncelle()
         {
-            Uri url = new Uri("http://www.denizsaribayir.cf/etombala.html");
+            Uri url = new Uri("http://www.saribayirdeniz.cf/etombala.html");
             WebClient client = new WebClient();
             client.Encoding = Encoding.UTF8;
             string html = client.DownloadString(url);

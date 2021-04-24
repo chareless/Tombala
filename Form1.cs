@@ -155,11 +155,11 @@ namespace Tombala
         }
         private void geriBildirimToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("http://www.denizsaribayir.cf/#contact");
+            System.Diagnostics.Process.Start("http://www.saribayirdeniz.cf/#contact");
         }
         private void versionToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("http://www.denizsaribayir.cf/etombala.html#version");
+            System.Diagnostics.Process.Start("http://www.saribayirdeniz.cf/etombala.html#version");
         }
 
 
