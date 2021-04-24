@@ -36,7 +36,7 @@ namespace Tombala
         public static int torbaSayac = 0;
         public int torbaSayi;
 
-        public string surum = "1.0";
+        public string surum = "1.1";
 
         public static bool genelBirKontrol = false;
         public static bool genelIkiKontrol = false;
