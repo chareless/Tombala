@@ -251,7 +251,7 @@ namespace Tombala
             // yeniOyunBaslatToolStripMenuItem
             // 
             this.yeniOyunBaslatToolStripMenuItem.Name = "yeniOyunBaslatToolStripMenuItem";
-            this.yeniOyunBaslatToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.yeniOyunBaslatToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
             this.yeniOyunBaslatToolStripMenuItem.Text = "Yeni Oyun Başlat";
             this.yeniOyunBaslatToolStripMenuItem.Click += new System.EventHandler(this.yeniOyunBaslatToolStripMenuItem_Click);
             // 
@@ -2497,7 +2497,7 @@ namespace Tombala
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SeaGreen;
-            this.ClientSize = new System.Drawing.Size(1900, 1017);
+            this.ClientSize = new System.Drawing.Size(1900, 1037);
             this.Controls.Add(this.duyuruLabel);
             this.Controls.Add(this.duyuruButton);
             this.Controls.Add(this.button1035);
