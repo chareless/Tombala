@@ -16,8 +16,7 @@ namespace Tombala
         public Form1()
         {
             InitializeComponent();
-            InternetKontrol();
-            
+            InternetKontrol();       
         }
 
         DoThings dothings = new DoThings();

@@ -308,6 +308,7 @@ namespace Tombala
             // 
             // ayarlaButton
             // 
+            this.ayarlaButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.ayarlaButton.BackColor = System.Drawing.Color.PaleTurquoise;
             this.ayarlaButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ayarlaButton.ForeColor = System.Drawing.Color.MediumBlue;
@@ -321,6 +322,7 @@ namespace Tombala
             // 
             // baslaButton
             // 
+            this.baslaButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.baslaButton.BackColor = System.Drawing.Color.PaleTurquoise;
             this.baslaButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.baslaButton.ForeColor = System.Drawing.Color.MediumBlue;
@@ -334,6 +336,7 @@ namespace Tombala
             // 
             // skorListView
             // 
+            this.skorListView.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.skorListView.Enabled = false;
             this.skorListView.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.skorListView.HideSelection = false;
@@ -348,6 +351,7 @@ namespace Tombala
             // 
             // torbaRichTextBox
             // 
+            this.torbaRichTextBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.torbaRichTextBox.Enabled = false;
             this.torbaRichTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.torbaRichTextBox.Location = new System.Drawing.Point(1396, 209);
@@ -360,6 +364,7 @@ namespace Tombala
             // 
             // cekButton
             // 
+            this.cekButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.cekButton.BackColor = System.Drawing.Color.PaleTurquoise;
             this.cekButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cekButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -375,6 +380,7 @@ namespace Tombala
             // 
             // sonTextBox
             // 
+            this.sonTextBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.sonTextBox.Enabled = false;
             this.sonTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.sonTextBox.Location = new System.Drawing.Point(1629, 140);
@@ -387,6 +393,7 @@ namespace Tombala
             // 
             // sonLabel
             // 
+            this.sonLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.sonLabel.AutoSize = true;
             this.sonLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.sonLabel.Location = new System.Drawing.Point(1495, 146);
@@ -398,6 +405,7 @@ namespace Tombala
             // 
             // torbaLabel
             // 
+            this.torbaLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.torbaLabel.AutoSize = true;
             this.torbaLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.torbaLabel.Location = new System.Drawing.Point(1574, 66);
@@ -409,6 +417,7 @@ namespace Tombala
             // 
             // skorLabel
             // 
+            this.skorLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.skorLabel.AutoSize = true;
             this.skorLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.skorLabel.Location = new System.Drawing.Point(1520, 652);
@@ -420,6 +429,7 @@ namespace Tombala
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.Location = new System.Drawing.Point(1396, 500);
@@ -431,6 +441,7 @@ namespace Tombala
             // 
             // label2
             // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label2.Location = new System.Drawing.Point(1396, 545);
@@ -442,6 +453,7 @@ namespace Tombala
             // 
             // label3
             // 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label3.Location = new System.Drawing.Point(1396, 590);
@@ -453,6 +465,7 @@ namespace Tombala
             // 
             // yeniTurButton
             // 
+            this.yeniTurButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.yeniTurButton.BackColor = System.Drawing.Color.PaleTurquoise;
             this.yeniTurButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.yeniTurButton.ForeColor = System.Drawing.Color.MediumBlue;
@@ -467,6 +480,7 @@ namespace Tombala
             // 
             // kartDegisButton
             // 
+            this.kartDegisButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.kartDegisButton.BackColor = System.Drawing.Color.PaleTurquoise;
             this.kartDegisButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.kartDegisButton.ForeColor = System.Drawing.Color.MediumBlue;
@@ -481,6 +495,7 @@ namespace Tombala
             // 
             // oyuncuLabel1
             // 
+            this.oyuncuLabel1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.oyuncuLabel1.AutoSize = true;
             this.oyuncuLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.oyuncuLabel1.Location = new System.Drawing.Point(18, 55);
@@ -492,6 +507,7 @@ namespace Tombala
             // 
             // button111
             // 
+            this.button111.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button111.Enabled = false;
             this.button111.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button111.Location = new System.Drawing.Point(22, 85);
@@ -504,6 +520,7 @@ namespace Tombala
             // 
             // button112
             // 
+            this.button112.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button112.Enabled = false;
             this.button112.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button112.Location = new System.Drawing.Point(116, 85);
@@ -516,6 +533,7 @@ namespace Tombala
             // 
             // button113
             // 
+            this.button113.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button113.Enabled = false;
             this.button113.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button113.Location = new System.Drawing.Point(210, 85);
@@ -528,6 +546,7 @@ namespace Tombala
             // 
             // button115
             // 
+            this.button115.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button115.Enabled = false;
             this.button115.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button115.Location = new System.Drawing.Point(350, 85);
@@ -540,6 +559,7 @@ namespace Tombala
             // 
             // button114
             // 
+            this.button114.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button114.Enabled = false;
             this.button114.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button114.Location = new System.Drawing.Point(303, 85);
@@ -552,6 +572,7 @@ namespace Tombala
             // 
             // button125
             // 
+            this.button125.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button125.Enabled = false;
             this.button125.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button125.Location = new System.Drawing.Point(397, 131);
@@ -564,6 +585,7 @@ namespace Tombala
             // 
             // button124
             // 
+            this.button124.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button124.Enabled = false;
             this.button124.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button124.Location = new System.Drawing.Point(350, 131);
@@ -576,6 +598,7 @@ namespace Tombala
             // 
             // button123
             // 
+            this.button123.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button123.Enabled = false;
             this.button123.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button123.Location = new System.Drawing.Point(256, 131);
@@ -588,6 +611,7 @@ namespace Tombala
             // 
             // button122
             // 
+            this.button122.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button122.Enabled = false;
             this.button122.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button122.Location = new System.Drawing.Point(163, 131);
@@ -600,6 +624,7 @@ namespace Tombala
             // 
             // button121
             // 
+            this.button121.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button121.Enabled = false;
             this.button121.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button121.Location = new System.Drawing.Point(69, 131);
@@ -612,6 +637,7 @@ namespace Tombala
             // 
             // button135
             // 
+            this.button135.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button135.Enabled = false;
             this.button135.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button135.Location = new System.Drawing.Point(397, 175);
@@ -624,6 +650,7 @@ namespace Tombala
             // 
             // button134
             // 
+            this.button134.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button134.Enabled = false;
             this.button134.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button134.Location = new System.Drawing.Point(303, 175);
@@ -636,6 +663,7 @@ namespace Tombala
             // 
             // button133
             // 
+            this.button133.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button133.Enabled = false;
             this.button133.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button133.Location = new System.Drawing.Point(210, 175);
@@ -648,6 +676,7 @@ namespace Tombala
             // 
             // button132
             // 
+            this.button132.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button132.Enabled = false;
             this.button132.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button132.Location = new System.Drawing.Point(116, 175);
@@ -660,6 +689,7 @@ namespace Tombala
             // 
             // button131
             // 
+            this.button131.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button131.Enabled = false;
             this.button131.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button131.Location = new System.Drawing.Point(22, 175);
@@ -672,6 +702,7 @@ namespace Tombala
             // 
             // button235
             // 
+            this.button235.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button235.Enabled = false;
             this.button235.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button235.Location = new System.Drawing.Point(865, 175);
@@ -684,6 +715,7 @@ namespace Tombala
             // 
             // button234
             // 
+            this.button234.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button234.Enabled = false;
             this.button234.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button234.Location = new System.Drawing.Point(771, 175);
@@ -696,6 +728,7 @@ namespace Tombala
             // 
             // button233
             // 
+            this.button233.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button233.Enabled = false;
             this.button233.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button233.Location = new System.Drawing.Point(678, 175);
@@ -708,6 +741,7 @@ namespace Tombala
             // 
             // button232
             // 
+            this.button232.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button232.Enabled = false;
             this.button232.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button232.Location = new System.Drawing.Point(584, 175);
@@ -720,6 +754,7 @@ namespace Tombala
             // 
             // button231
             // 
+            this.button231.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button231.Enabled = false;
             this.button231.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button231.Location = new System.Drawing.Point(490, 175);
@@ -732,6 +767,7 @@ namespace Tombala
             // 
             // button225
             // 
+            this.button225.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button225.Enabled = false;
             this.button225.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button225.Location = new System.Drawing.Point(865, 131);
@@ -744,6 +780,7 @@ namespace Tombala
             // 
             // button224
             // 
+            this.button224.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button224.Enabled = false;
             this.button224.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button224.Location = new System.Drawing.Point(818, 131);
@@ -756,6 +793,7 @@ namespace Tombala
             // 
             // button223
             // 
+            this.button223.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button223.Enabled = false;
             this.button223.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button223.Location = new System.Drawing.Point(724, 131);
@@ -768,6 +806,7 @@ namespace Tombala
             // 
             // button222
             // 
+            this.button222.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button222.Enabled = false;
             this.button222.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button222.Location = new System.Drawing.Point(631, 131);
@@ -780,6 +819,7 @@ namespace Tombala
             // 
             // button221
             // 
+            this.button221.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button221.Enabled = false;
             this.button221.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button221.Location = new System.Drawing.Point(537, 131);
@@ -792,6 +832,7 @@ namespace Tombala
             // 
             // button215
             // 
+            this.button215.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button215.Enabled = false;
             this.button215.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button215.Location = new System.Drawing.Point(818, 85);
@@ -804,6 +845,7 @@ namespace Tombala
             // 
             // button214
             // 
+            this.button214.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button214.Enabled = false;
             this.button214.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button214.Location = new System.Drawing.Point(771, 85);
@@ -816,6 +858,7 @@ namespace Tombala
             // 
             // button213
             // 
+            this.button213.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button213.Enabled = false;
             this.button213.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button213.Location = new System.Drawing.Point(678, 85);
@@ -828,6 +871,7 @@ namespace Tombala
             // 
             // button212
             // 
+            this.button212.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button212.Enabled = false;
             this.button212.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button212.Location = new System.Drawing.Point(584, 85);
@@ -840,6 +884,7 @@ namespace Tombala
             // 
             // button211
             // 
+            this.button211.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button211.Enabled = false;
             this.button211.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button211.Location = new System.Drawing.Point(490, 85);
@@ -852,6 +897,7 @@ namespace Tombala
             // 
             // oyuncuLabel2
             // 
+            this.oyuncuLabel2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.oyuncuLabel2.AutoSize = true;
             this.oyuncuLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.oyuncuLabel2.Location = new System.Drawing.Point(486, 55);
@@ -863,6 +909,7 @@ namespace Tombala
             // 
             // button435
             // 
+            this.button435.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button435.Enabled = false;
             this.button435.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button435.Location = new System.Drawing.Point(865, 355);
@@ -875,6 +922,7 @@ namespace Tombala
             // 
             // button434
             // 
+            this.button434.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button434.Enabled = false;
             this.button434.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button434.Location = new System.Drawing.Point(771, 355);
@@ -887,6 +935,7 @@ namespace Tombala
             // 
             // button433
             // 
+            this.button433.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button433.Enabled = false;
             this.button433.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button433.Location = new System.Drawing.Point(678, 355);
@@ -899,6 +948,7 @@ namespace Tombala
             // 
             // button432
             // 
+            this.button432.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button432.Enabled = false;
             this.button432.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button432.Location = new System.Drawing.Point(584, 355);
@@ -911,6 +961,7 @@ namespace Tombala
             // 
             // button431
             // 
+            this.button431.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button431.Enabled = false;
             this.button431.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button431.Location = new System.Drawing.Point(490, 355);
@@ -923,6 +974,7 @@ namespace Tombala
             // 
             // button425
             // 
+            this.button425.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button425.Enabled = false;
             this.button425.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button425.Location = new System.Drawing.Point(865, 311);
@@ -935,6 +987,7 @@ namespace Tombala
             // 
             // button424
             // 
+            this.button424.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button424.Enabled = false;
             this.button424.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button424.Location = new System.Drawing.Point(818, 311);
@@ -947,6 +1000,7 @@ namespace Tombala
             // 
             // button423
             // 
+            this.button423.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button423.Enabled = false;
             this.button423.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button423.Location = new System.Drawing.Point(724, 311);
@@ -959,6 +1013,7 @@ namespace Tombala
             // 
             // button422
             // 
+            this.button422.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button422.Enabled = false;
             this.button422.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button422.Location = new System.Drawing.Point(631, 311);
@@ -971,6 +1026,7 @@ namespace Tombala
             // 
             // button421
             // 
+            this.button421.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button421.Enabled = false;
             this.button421.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button421.Location = new System.Drawing.Point(537, 311);
@@ -983,6 +1039,7 @@ namespace Tombala
             // 
             // button415
             // 
+            this.button415.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button415.Enabled = false;
             this.button415.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button415.Location = new System.Drawing.Point(818, 265);
@@ -995,6 +1052,7 @@ namespace Tombala
             // 
             // button414
             // 
+            this.button414.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button414.Enabled = false;
             this.button414.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button414.Location = new System.Drawing.Point(771, 265);
@@ -1007,6 +1065,7 @@ namespace Tombala
             // 
             // button413
             // 
+            this.button413.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button413.Enabled = false;
             this.button413.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button413.Location = new System.Drawing.Point(678, 265);
@@ -1019,6 +1078,7 @@ namespace Tombala
             // 
             // button412
             // 
+            this.button412.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button412.Enabled = false;
             this.button412.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button412.Location = new System.Drawing.Point(584, 265);
@@ -1031,6 +1091,7 @@ namespace Tombala
             // 
             // button411
             // 
+            this.button411.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button411.Enabled = false;
             this.button411.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button411.Location = new System.Drawing.Point(490, 265);
@@ -1043,6 +1104,7 @@ namespace Tombala
             // 
             // oyuncuLabel4
             // 
+            this.oyuncuLabel4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.oyuncuLabel4.AutoSize = true;
             this.oyuncuLabel4.Enabled = false;
             this.oyuncuLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -1055,6 +1117,7 @@ namespace Tombala
             // 
             // button335
             // 
+            this.button335.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button335.Enabled = false;
             this.button335.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button335.Location = new System.Drawing.Point(397, 355);
@@ -1067,6 +1130,7 @@ namespace Tombala
             // 
             // button334
             // 
+            this.button334.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button334.Enabled = false;
             this.button334.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button334.Location = new System.Drawing.Point(303, 355);
@@ -1079,6 +1143,7 @@ namespace Tombala
             // 
             // button333
             // 
+            this.button333.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button333.Enabled = false;
             this.button333.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button333.Location = new System.Drawing.Point(210, 355);
@@ -1091,6 +1156,7 @@ namespace Tombala
             // 
             // button332
             // 
+            this.button332.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button332.Enabled = false;
             this.button332.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button332.Location = new System.Drawing.Point(116, 355);
@@ -1103,6 +1169,7 @@ namespace Tombala
             // 
             // button331
             // 
+            this.button331.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button331.Enabled = false;
             this.button331.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button331.Location = new System.Drawing.Point(22, 355);
@@ -1115,6 +1182,7 @@ namespace Tombala
             // 
             // button325
             // 
+            this.button325.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button325.Enabled = false;
             this.button325.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button325.Location = new System.Drawing.Point(397, 311);
@@ -1127,6 +1195,7 @@ namespace Tombala
             // 
             // button324
             // 
+            this.button324.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button324.Enabled = false;
             this.button324.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button324.Location = new System.Drawing.Point(350, 311);
@@ -1139,6 +1208,7 @@ namespace Tombala
             // 
             // button323
             // 
+            this.button323.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button323.Enabled = false;
             this.button323.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button323.Location = new System.Drawing.Point(256, 311);
@@ -1151,6 +1221,7 @@ namespace Tombala
             // 
             // button322
             // 
+            this.button322.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button322.Enabled = false;
             this.button322.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button322.Location = new System.Drawing.Point(163, 311);
@@ -1163,6 +1234,7 @@ namespace Tombala
             // 
             // button321
             // 
+            this.button321.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button321.Enabled = false;
             this.button321.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button321.Location = new System.Drawing.Point(69, 311);
@@ -1175,6 +1247,7 @@ namespace Tombala
             // 
             // button315
             // 
+            this.button315.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button315.Enabled = false;
             this.button315.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button315.Location = new System.Drawing.Point(350, 265);
@@ -1187,6 +1260,7 @@ namespace Tombala
             // 
             // button314
             // 
+            this.button314.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button314.Enabled = false;
             this.button314.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button314.Location = new System.Drawing.Point(303, 265);
@@ -1199,6 +1273,7 @@ namespace Tombala
             // 
             // button313
             // 
+            this.button313.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button313.Enabled = false;
             this.button313.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button313.Location = new System.Drawing.Point(210, 265);
@@ -1211,6 +1286,7 @@ namespace Tombala
             // 
             // button312
             // 
+            this.button312.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button312.Enabled = false;
             this.button312.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button312.Location = new System.Drawing.Point(116, 265);
@@ -1223,6 +1299,7 @@ namespace Tombala
             // 
             // button311
             // 
+            this.button311.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button311.Enabled = false;
             this.button311.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button311.Location = new System.Drawing.Point(22, 265);
@@ -1235,6 +1312,7 @@ namespace Tombala
             // 
             // oyuncuLabel3
             // 
+            this.oyuncuLabel3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.oyuncuLabel3.AutoSize = true;
             this.oyuncuLabel3.Enabled = false;
             this.oyuncuLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -1247,6 +1325,7 @@ namespace Tombala
             // 
             // button835
             // 
+            this.button835.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button835.Enabled = false;
             this.button835.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button835.Location = new System.Drawing.Point(865, 715);
@@ -1259,6 +1338,7 @@ namespace Tombala
             // 
             // button834
             // 
+            this.button834.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button834.Enabled = false;
             this.button834.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button834.Location = new System.Drawing.Point(771, 715);
@@ -1271,6 +1351,7 @@ namespace Tombala
             // 
             // button833
             // 
+            this.button833.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button833.Enabled = false;
             this.button833.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button833.Location = new System.Drawing.Point(678, 715);
@@ -1283,6 +1364,7 @@ namespace Tombala
             // 
             // button832
             // 
+            this.button832.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button832.Enabled = false;
             this.button832.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button832.Location = new System.Drawing.Point(584, 715);
@@ -1295,6 +1377,7 @@ namespace Tombala
             // 
             // button831
             // 
+            this.button831.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button831.Enabled = false;
             this.button831.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button831.Location = new System.Drawing.Point(490, 715);
@@ -1307,6 +1390,7 @@ namespace Tombala
             // 
             // button825
             // 
+            this.button825.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button825.Enabled = false;
             this.button825.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button825.Location = new System.Drawing.Point(865, 671);
@@ -1319,6 +1403,7 @@ namespace Tombala
             // 
             // button824
             // 
+            this.button824.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button824.Enabled = false;
             this.button824.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button824.Location = new System.Drawing.Point(818, 671);
@@ -1331,6 +1416,7 @@ namespace Tombala
             // 
             // button823
             // 
+            this.button823.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button823.Enabled = false;
             this.button823.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button823.Location = new System.Drawing.Point(724, 671);
@@ -1343,6 +1429,7 @@ namespace Tombala
             // 
             // button822
             // 
+            this.button822.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button822.Enabled = false;
             this.button822.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button822.Location = new System.Drawing.Point(631, 671);
@@ -1355,6 +1442,7 @@ namespace Tombala
             // 
             // button821
             // 
+            this.button821.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button821.Enabled = false;
             this.button821.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button821.Location = new System.Drawing.Point(537, 671);
@@ -1367,6 +1455,7 @@ namespace Tombala
             // 
             // button815
             // 
+            this.button815.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button815.Enabled = false;
             this.button815.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button815.Location = new System.Drawing.Point(818, 625);
@@ -1379,6 +1468,7 @@ namespace Tombala
             // 
             // button814
             // 
+            this.button814.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button814.Enabled = false;
             this.button814.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button814.Location = new System.Drawing.Point(771, 625);
@@ -1391,6 +1481,7 @@ namespace Tombala
             // 
             // button813
             // 
+            this.button813.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button813.Enabled = false;
             this.button813.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button813.Location = new System.Drawing.Point(678, 625);
@@ -1403,6 +1494,7 @@ namespace Tombala
             // 
             // button812
             // 
+            this.button812.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button812.Enabled = false;
             this.button812.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button812.Location = new System.Drawing.Point(584, 625);
@@ -1415,6 +1507,7 @@ namespace Tombala
             // 
             // button811
             // 
+            this.button811.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button811.Enabled = false;
             this.button811.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button811.Location = new System.Drawing.Point(490, 625);
@@ -1427,6 +1520,7 @@ namespace Tombala
             // 
             // oyuncuLabel8
             // 
+            this.oyuncuLabel8.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.oyuncuLabel8.AutoSize = true;
             this.oyuncuLabel8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.oyuncuLabel8.Location = new System.Drawing.Point(486, 595);
@@ -1438,6 +1532,7 @@ namespace Tombala
             // 
             // button735
             // 
+            this.button735.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button735.Enabled = false;
             this.button735.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button735.Location = new System.Drawing.Point(397, 715);
@@ -1450,6 +1545,7 @@ namespace Tombala
             // 
             // button734
             // 
+            this.button734.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button734.Enabled = false;
             this.button734.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button734.Location = new System.Drawing.Point(303, 715);
@@ -1462,6 +1558,7 @@ namespace Tombala
             // 
             // button733
             // 
+            this.button733.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button733.Enabled = false;
             this.button733.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button733.Location = new System.Drawing.Point(210, 715);
@@ -1474,6 +1571,7 @@ namespace Tombala
             // 
             // button732
             // 
+            this.button732.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button732.Enabled = false;
             this.button732.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button732.Location = new System.Drawing.Point(116, 715);
@@ -1486,6 +1584,7 @@ namespace Tombala
             // 
             // button731
             // 
+            this.button731.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button731.Enabled = false;
             this.button731.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button731.Location = new System.Drawing.Point(22, 715);
@@ -1498,6 +1597,7 @@ namespace Tombala
             // 
             // button725
             // 
+            this.button725.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button725.Enabled = false;
             this.button725.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button725.Location = new System.Drawing.Point(397, 671);
@@ -1510,6 +1610,7 @@ namespace Tombala
             // 
             // button724
             // 
+            this.button724.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button724.Enabled = false;
             this.button724.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button724.Location = new System.Drawing.Point(350, 671);
@@ -1522,6 +1623,7 @@ namespace Tombala
             // 
             // button723
             // 
+            this.button723.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button723.Enabled = false;
             this.button723.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button723.Location = new System.Drawing.Point(256, 671);
@@ -1534,6 +1636,7 @@ namespace Tombala
             // 
             // button722
             // 
+            this.button722.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button722.Enabled = false;
             this.button722.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button722.Location = new System.Drawing.Point(163, 671);
@@ -1546,6 +1649,7 @@ namespace Tombala
             // 
             // button721
             // 
+            this.button721.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button721.Enabled = false;
             this.button721.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button721.Location = new System.Drawing.Point(69, 671);
@@ -1558,6 +1662,7 @@ namespace Tombala
             // 
             // button715
             // 
+            this.button715.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button715.Enabled = false;
             this.button715.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button715.Location = new System.Drawing.Point(350, 625);
@@ -1570,6 +1675,7 @@ namespace Tombala
             // 
             // button714
             // 
+            this.button714.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button714.Enabled = false;
             this.button714.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button714.Location = new System.Drawing.Point(303, 625);
@@ -1582,6 +1688,7 @@ namespace Tombala
             // 
             // button713
             // 
+            this.button713.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button713.Enabled = false;
             this.button713.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button713.Location = new System.Drawing.Point(210, 625);
@@ -1594,6 +1701,7 @@ namespace Tombala
             // 
             // button712
             // 
+            this.button712.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button712.Enabled = false;
             this.button712.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button712.Location = new System.Drawing.Point(116, 625);
@@ -1606,6 +1714,7 @@ namespace Tombala
             // 
             // button711
             // 
+            this.button711.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button711.Enabled = false;
             this.button711.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button711.Location = new System.Drawing.Point(22, 625);
@@ -1618,6 +1727,7 @@ namespace Tombala
             // 
             // oyuncuLabel7
             // 
+            this.oyuncuLabel7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.oyuncuLabel7.AutoSize = true;
             this.oyuncuLabel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.oyuncuLabel7.Location = new System.Drawing.Point(18, 595);
@@ -1629,6 +1739,7 @@ namespace Tombala
             // 
             // button635
             // 
+            this.button635.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button635.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button635.Location = new System.Drawing.Point(865, 535);
             this.button635.Name = "button635";
@@ -1640,6 +1751,7 @@ namespace Tombala
             // 
             // button634
             // 
+            this.button634.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button634.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button634.Location = new System.Drawing.Point(771, 535);
             this.button634.Name = "button634";
@@ -1651,6 +1763,7 @@ namespace Tombala
             // 
             // button633
             // 
+            this.button633.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button633.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button633.Location = new System.Drawing.Point(678, 535);
             this.button633.Name = "button633";
@@ -1662,6 +1775,7 @@ namespace Tombala
             // 
             // button632
             // 
+            this.button632.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button632.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button632.Location = new System.Drawing.Point(584, 535);
             this.button632.Name = "button632";
@@ -1673,6 +1787,7 @@ namespace Tombala
             // 
             // button631
             // 
+            this.button631.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button631.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button631.Location = new System.Drawing.Point(490, 535);
             this.button631.Name = "button631";
@@ -1684,6 +1799,7 @@ namespace Tombala
             // 
             // button625
             // 
+            this.button625.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button625.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button625.Location = new System.Drawing.Point(865, 491);
             this.button625.Name = "button625";
@@ -1695,6 +1811,7 @@ namespace Tombala
             // 
             // button624
             // 
+            this.button624.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button624.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button624.Location = new System.Drawing.Point(818, 491);
             this.button624.Name = "button624";
@@ -1706,6 +1823,7 @@ namespace Tombala
             // 
             // button623
             // 
+            this.button623.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button623.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button623.Location = new System.Drawing.Point(724, 491);
             this.button623.Name = "button623";
@@ -1717,6 +1835,7 @@ namespace Tombala
             // 
             // button622
             // 
+            this.button622.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button622.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button622.Location = new System.Drawing.Point(631, 491);
             this.button622.Name = "button622";
@@ -1728,6 +1847,7 @@ namespace Tombala
             // 
             // button621
             // 
+            this.button621.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button621.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button621.Location = new System.Drawing.Point(537, 491);
             this.button621.Name = "button621";
@@ -1739,6 +1859,7 @@ namespace Tombala
             // 
             // button615
             // 
+            this.button615.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button615.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button615.Location = new System.Drawing.Point(818, 445);
             this.button615.Name = "button615";
@@ -1750,6 +1871,7 @@ namespace Tombala
             // 
             // button614
             // 
+            this.button614.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button614.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button614.Location = new System.Drawing.Point(771, 445);
             this.button614.Name = "button614";
@@ -1761,6 +1883,7 @@ namespace Tombala
             // 
             // button613
             // 
+            this.button613.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button613.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button613.Location = new System.Drawing.Point(678, 445);
             this.button613.Name = "button613";
@@ -1772,6 +1895,7 @@ namespace Tombala
             // 
             // button612
             // 
+            this.button612.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button612.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button612.Location = new System.Drawing.Point(584, 445);
             this.button612.Name = "button612";
@@ -1783,6 +1907,7 @@ namespace Tombala
             // 
             // button611
             // 
+            this.button611.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button611.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button611.Location = new System.Drawing.Point(490, 445);
             this.button611.Name = "button611";
@@ -1794,6 +1919,7 @@ namespace Tombala
             // 
             // oyuncuLabel6
             // 
+            this.oyuncuLabel6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.oyuncuLabel6.AutoSize = true;
             this.oyuncuLabel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.oyuncuLabel6.Location = new System.Drawing.Point(486, 415);
@@ -1805,6 +1931,7 @@ namespace Tombala
             // 
             // button535
             // 
+            this.button535.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button535.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button535.Location = new System.Drawing.Point(397, 535);
             this.button535.Name = "button535";
@@ -1816,6 +1943,7 @@ namespace Tombala
             // 
             // button534
             // 
+            this.button534.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button534.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button534.Location = new System.Drawing.Point(303, 535);
             this.button534.Name = "button534";
@@ -1827,6 +1955,7 @@ namespace Tombala
             // 
             // button533
             // 
+            this.button533.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button533.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button533.Location = new System.Drawing.Point(210, 535);
             this.button533.Name = "button533";
@@ -1838,6 +1967,7 @@ namespace Tombala
             // 
             // button532
             // 
+            this.button532.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button532.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button532.Location = new System.Drawing.Point(116, 535);
             this.button532.Name = "button532";
@@ -1849,6 +1979,7 @@ namespace Tombala
             // 
             // button531
             // 
+            this.button531.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button531.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button531.Location = new System.Drawing.Point(22, 535);
             this.button531.Name = "button531";
@@ -1860,6 +1991,7 @@ namespace Tombala
             // 
             // button525
             // 
+            this.button525.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button525.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button525.Location = new System.Drawing.Point(397, 491);
             this.button525.Name = "button525";
@@ -1871,6 +2003,7 @@ namespace Tombala
             // 
             // button524
             // 
+            this.button524.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button524.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button524.Location = new System.Drawing.Point(350, 491);
             this.button524.Name = "button524";
@@ -1882,6 +2015,7 @@ namespace Tombala
             // 
             // button523
             // 
+            this.button523.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button523.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button523.Location = new System.Drawing.Point(256, 491);
             this.button523.Name = "button523";
@@ -1893,6 +2027,7 @@ namespace Tombala
             // 
             // button522
             // 
+            this.button522.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button522.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button522.Location = new System.Drawing.Point(163, 491);
             this.button522.Name = "button522";
@@ -1904,6 +2039,7 @@ namespace Tombala
             // 
             // button521
             // 
+            this.button521.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button521.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button521.Location = new System.Drawing.Point(69, 491);
             this.button521.Name = "button521";
@@ -1915,6 +2051,7 @@ namespace Tombala
             // 
             // button515
             // 
+            this.button515.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button515.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button515.Location = new System.Drawing.Point(350, 445);
             this.button515.Name = "button515";
@@ -1926,6 +2063,7 @@ namespace Tombala
             // 
             // button514
             // 
+            this.button514.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button514.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button514.Location = new System.Drawing.Point(303, 445);
             this.button514.Name = "button514";
@@ -1937,6 +2075,7 @@ namespace Tombala
             // 
             // button513
             // 
+            this.button513.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button513.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button513.Location = new System.Drawing.Point(210, 445);
             this.button513.Name = "button513";
@@ -1948,6 +2087,7 @@ namespace Tombala
             // 
             // button512
             // 
+            this.button512.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button512.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button512.Location = new System.Drawing.Point(116, 445);
             this.button512.Name = "button512";
@@ -1959,6 +2099,7 @@ namespace Tombala
             // 
             // button511
             // 
+            this.button511.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button511.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button511.Location = new System.Drawing.Point(22, 445);
             this.button511.Name = "button511";
@@ -1970,6 +2111,7 @@ namespace Tombala
             // 
             // oyuncuLabel5
             // 
+            this.oyuncuLabel5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.oyuncuLabel5.AutoSize = true;
             this.oyuncuLabel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.oyuncuLabel5.Location = new System.Drawing.Point(18, 415);
@@ -1981,6 +2123,7 @@ namespace Tombala
             // 
             // button1035
             // 
+            this.button1035.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button1035.Enabled = false;
             this.button1035.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button1035.Location = new System.Drawing.Point(865, 895);
@@ -1993,6 +2136,7 @@ namespace Tombala
             // 
             // button1034
             // 
+            this.button1034.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button1034.Enabled = false;
             this.button1034.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button1034.Location = new System.Drawing.Point(772, 895);
@@ -2005,6 +2149,7 @@ namespace Tombala
             // 
             // button1033
             // 
+            this.button1033.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button1033.Enabled = false;
             this.button1033.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button1033.Location = new System.Drawing.Point(678, 895);
@@ -2017,6 +2162,7 @@ namespace Tombala
             // 
             // button1032
             // 
+            this.button1032.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button1032.Enabled = false;
             this.button1032.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button1032.Location = new System.Drawing.Point(584, 895);
@@ -2029,6 +2175,7 @@ namespace Tombala
             // 
             // button1031
             // 
+            this.button1031.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button1031.Enabled = false;
             this.button1031.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button1031.Location = new System.Drawing.Point(490, 895);
@@ -2041,6 +2188,7 @@ namespace Tombala
             // 
             // button1025
             // 
+            this.button1025.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button1025.Enabled = false;
             this.button1025.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button1025.Location = new System.Drawing.Point(865, 851);
@@ -2053,6 +2201,7 @@ namespace Tombala
             // 
             // button1024
             // 
+            this.button1024.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button1024.Enabled = false;
             this.button1024.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button1024.Location = new System.Drawing.Point(818, 851);
@@ -2065,6 +2214,7 @@ namespace Tombala
             // 
             // button1023
             // 
+            this.button1023.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button1023.Enabled = false;
             this.button1023.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button1023.Location = new System.Drawing.Point(724, 851);
@@ -2077,6 +2227,7 @@ namespace Tombala
             // 
             // button1022
             // 
+            this.button1022.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button1022.Enabled = false;
             this.button1022.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button1022.Location = new System.Drawing.Point(631, 851);
@@ -2089,6 +2240,7 @@ namespace Tombala
             // 
             // button1021
             // 
+            this.button1021.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button1021.Enabled = false;
             this.button1021.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button1021.Location = new System.Drawing.Point(537, 851);
@@ -2101,6 +2253,7 @@ namespace Tombala
             // 
             // button1015
             // 
+            this.button1015.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button1015.Enabled = false;
             this.button1015.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button1015.Location = new System.Drawing.Point(818, 805);
@@ -2113,6 +2266,7 @@ namespace Tombala
             // 
             // button1014
             // 
+            this.button1014.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button1014.Enabled = false;
             this.button1014.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button1014.Location = new System.Drawing.Point(771, 805);
@@ -2125,6 +2279,7 @@ namespace Tombala
             // 
             // button1013
             // 
+            this.button1013.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button1013.Enabled = false;
             this.button1013.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button1013.Location = new System.Drawing.Point(678, 805);
@@ -2137,6 +2292,7 @@ namespace Tombala
             // 
             // button1012
             // 
+            this.button1012.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button1012.Enabled = false;
             this.button1012.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button1012.Location = new System.Drawing.Point(584, 805);
@@ -2149,6 +2305,7 @@ namespace Tombala
             // 
             // button1011
             // 
+            this.button1011.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button1011.Enabled = false;
             this.button1011.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button1011.Location = new System.Drawing.Point(490, 805);
@@ -2161,6 +2318,7 @@ namespace Tombala
             // 
             // oyuncuLabel10
             // 
+            this.oyuncuLabel10.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.oyuncuLabel10.AutoSize = true;
             this.oyuncuLabel10.Enabled = false;
             this.oyuncuLabel10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -2173,6 +2331,7 @@ namespace Tombala
             // 
             // button935
             // 
+            this.button935.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button935.Enabled = false;
             this.button935.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button935.Location = new System.Drawing.Point(397, 895);
@@ -2185,6 +2344,7 @@ namespace Tombala
             // 
             // button934
             // 
+            this.button934.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button934.Enabled = false;
             this.button934.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button934.Location = new System.Drawing.Point(303, 895);
@@ -2197,6 +2357,7 @@ namespace Tombala
             // 
             // button933
             // 
+            this.button933.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button933.Enabled = false;
             this.button933.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button933.Location = new System.Drawing.Point(210, 895);
@@ -2209,6 +2370,7 @@ namespace Tombala
             // 
             // button932
             // 
+            this.button932.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button932.Enabled = false;
             this.button932.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button932.Location = new System.Drawing.Point(116, 895);
@@ -2221,6 +2383,7 @@ namespace Tombala
             // 
             // button931
             // 
+            this.button931.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button931.Enabled = false;
             this.button931.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button931.Location = new System.Drawing.Point(22, 895);
@@ -2233,6 +2396,7 @@ namespace Tombala
             // 
             // button925
             // 
+            this.button925.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button925.Enabled = false;
             this.button925.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button925.Location = new System.Drawing.Point(397, 851);
@@ -2245,6 +2409,7 @@ namespace Tombala
             // 
             // button924
             // 
+            this.button924.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button924.Enabled = false;
             this.button924.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button924.Location = new System.Drawing.Point(350, 851);
@@ -2257,6 +2422,7 @@ namespace Tombala
             // 
             // button923
             // 
+            this.button923.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button923.Enabled = false;
             this.button923.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button923.Location = new System.Drawing.Point(256, 851);
@@ -2269,6 +2435,7 @@ namespace Tombala
             // 
             // button922
             // 
+            this.button922.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button922.Enabled = false;
             this.button922.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button922.Location = new System.Drawing.Point(163, 851);
@@ -2281,6 +2448,7 @@ namespace Tombala
             // 
             // button921
             // 
+            this.button921.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button921.Enabled = false;
             this.button921.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button921.Location = new System.Drawing.Point(69, 851);
@@ -2293,6 +2461,7 @@ namespace Tombala
             // 
             // button915
             // 
+            this.button915.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button915.Enabled = false;
             this.button915.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button915.Location = new System.Drawing.Point(350, 805);
@@ -2305,6 +2474,7 @@ namespace Tombala
             // 
             // button914
             // 
+            this.button914.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button914.Enabled = false;
             this.button914.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button914.Location = new System.Drawing.Point(303, 805);
@@ -2317,6 +2487,7 @@ namespace Tombala
             // 
             // button913
             // 
+            this.button913.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button913.Enabled = false;
             this.button913.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button913.Location = new System.Drawing.Point(210, 805);
@@ -2329,6 +2500,7 @@ namespace Tombala
             // 
             // button912
             // 
+            this.button912.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button912.Enabled = false;
             this.button912.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button912.Location = new System.Drawing.Point(116, 805);
@@ -2341,6 +2513,7 @@ namespace Tombala
             // 
             // button911
             // 
+            this.button911.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button911.Enabled = false;
             this.button911.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button911.Location = new System.Drawing.Point(22, 805);
@@ -2353,6 +2526,7 @@ namespace Tombala
             // 
             // oyuncuLabel9
             // 
+            this.oyuncuLabel9.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.oyuncuLabel9.AutoSize = true;
             this.oyuncuLabel9.Enabled = false;
             this.oyuncuLabel9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -2365,6 +2539,7 @@ namespace Tombala
             // 
             // panel10
             // 
+            this.panel10.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel10.Enabled = false;
             this.panel10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -2376,6 +2551,7 @@ namespace Tombala
             // 
             // panel5
             // 
+            this.panel5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.panel5.Location = new System.Drawing.Point(12, 438);
@@ -2386,6 +2562,7 @@ namespace Tombala
             // 
             // panel3
             // 
+            this.panel3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel3.Enabled = false;
             this.panel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -2397,6 +2574,7 @@ namespace Tombala
             // 
             // panel4
             // 
+            this.panel4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel4.Enabled = false;
             this.panel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -2408,6 +2586,7 @@ namespace Tombala
             // 
             // panel1
             // 
+            this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Enabled = false;
             this.panel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -2419,6 +2598,7 @@ namespace Tombala
             // 
             // panel2
             // 
+            this.panel2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel2.Enabled = false;
             this.panel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -2430,6 +2610,7 @@ namespace Tombala
             // 
             // duyuruButton
             // 
+            this.duyuruButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.duyuruButton.BackColor = System.Drawing.Color.PaleTurquoise;
             this.duyuruButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.duyuruButton.ForeColor = System.Drawing.Color.MediumBlue;
@@ -2444,6 +2625,7 @@ namespace Tombala
             // 
             // duyuruLabel
             // 
+            this.duyuruLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.duyuruLabel.AutoSize = true;
             this.duyuruLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.duyuruLabel.Location = new System.Drawing.Point(1203, 181);
@@ -2455,6 +2637,7 @@ namespace Tombala
             // 
             // panel9
             // 
+            this.panel9.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel9.Enabled = false;
             this.panel9.Location = new System.Drawing.Point(12, 799);
@@ -2465,6 +2648,7 @@ namespace Tombala
             // 
             // panel7
             // 
+            this.panel7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel7.Enabled = false;
             this.panel7.Location = new System.Drawing.Point(12, 620);
@@ -2475,6 +2659,7 @@ namespace Tombala
             // 
             // panel8
             // 
+            this.panel8.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel8.Enabled = false;
             this.panel8.Location = new System.Drawing.Point(475, 619);
@@ -2485,6 +2670,7 @@ namespace Tombala
             // 
             // panel6
             // 
+            this.panel6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel6.Location = new System.Drawing.Point(475, 439);
             this.panel6.Name = "panel6";
@@ -2692,6 +2878,7 @@ namespace Tombala
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "E-Tombala";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
