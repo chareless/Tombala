@@ -80,7 +80,7 @@ namespace Tombala
             this.surumLabel.Name = "surumLabel";
             this.surumLabel.Size = new System.Drawing.Size(119, 20);
             this.surumLabel.TabIndex = 12;
-            this.surumLabel.Text = "E-Tombala v1.3";
+            this.surumLabel.Text = "E-Tombala v1.4";
             // 
             // richTextBox1
             // 

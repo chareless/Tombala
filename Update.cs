@@ -27,30 +27,41 @@ namespace Tombala
 
         private void programGuncelle()
         {
-            Uri url = new Uri("http://www.saribayirdeniz.cf/etombala.html");
-            WebClient client = new WebClient();
-            client.Encoding = Encoding.UTF8;
-            string html = client.DownloadString(url);
-            HtmlAgilityPack.HtmlDocument dokuman = new HtmlAgilityPack.HtmlDocument();
-            dokuman.LoadHtml(html);
-            HtmlNodeCollection titles = dokuman.DocumentNode.SelectNodes("/html/body/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/div/p[5]/h7");
-            foreach (HtmlNode title in titles)
+            try
             {
-                guncelLabel.Text = title.InnerText;
-            }
+                Uri url = new Uri("https://chareless.github.io/saribayirdeniz/etombala.html");
+                WebClient client = new WebClient();
+                client.Encoding = Encoding.UTF8;
+                string html = client.DownloadString(url);
+                HtmlAgilityPack.HtmlDocument dokuman = new HtmlAgilityPack.HtmlDocument();
+                dokuman.LoadHtml(html);
+                HtmlNodeCollection titles = dokuman.DocumentNode.SelectNodes("/html/body/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/div/p[5]/h7");
+                foreach (HtmlNode title in titles)
+                {
+                    guncelLabel.Text = title.InnerText;
+                }
 
-            if (mevcutLabel.Text == guncelLabel.Text)
-            {
-                indirButton.Enabled = false;
-                indirButton.Visible = false;
-                durumLabel.Text = "Sürüm Güncel";
+                if (mevcutLabel.Text == guncelLabel.Text)
+                {
+                    indirButton.Enabled = false;
+                    indirButton.Visible = false;
+                    durumLabel.Text = "Sürüm Güncel";
+                }
+                else
+                {
+                    indirButton.Enabled = true;
+                    indirButton.Visible = true;
+                    durumLabel.Text = "Güncelleme Mevcut";
+                }
             }
-            else
+            catch
             {
-                indirButton.Enabled = true;
-                indirButton.Visible = true;
-                durumLabel.Text = "Güncelleme Mevcut";
+                    guncelLabel.Text = "Versiyon bulunamadı.";
+                    indirButton.Enabled = true;
+                    indirButton.Visible = true;
+                    durumLabel.Text = "Hata! Lütfen Tekrar Deneyin.";
             }
+            
         }
 
         private void indirButton_Click(object sender, EventArgs e)
